@@ -5,6 +5,7 @@ import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+
 BASE = Path(__file__).resolve().parent
 sys.path.insert(0, str(BASE))
 from scanner.data_fetcher import fetch_universe, fetch_history
